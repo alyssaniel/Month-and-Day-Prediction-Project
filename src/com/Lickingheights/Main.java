@@ -15,12 +15,21 @@ public class Main {
 
 
         System.out.print("Enter what day you were born on:(Enter Number)");
-        int dayfMonth = keyboard.nextInt();
+        int dayOfMonth = keyboard.nextInt();
         System.out.print("Enter Month:(Enter Number");
         int month = keyboard.nextInt();
         System.out.print("Enter Year");
         int year = keyboard.nextInt();
 
+
+        if (month ==1 || month == 2)
+        {
+
+            month = (month == 1) ? 13
+                    year--;
+
+        }
+            
 
 
 
