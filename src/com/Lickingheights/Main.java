@@ -84,15 +84,7 @@ public class Main {
             keepGoing = continueKB.nextLine();
             go = keepGoing.indexOf("y");
             System.out.println("Thanks for playing");
-            System.out.println("Come back later ");
-            System.out.println(" ****    ****  ");
-            System.out.println("*****    ***** ");
-            System.out.println("******  ****** ");
-            System.out.println(" ************  ");
-            System.out.println("  **********   ");
-            System.out.println("   ********  ");
-            System.out.println("    ******     ");
-            System.out.println("     ****      ");
+
 
 
 
