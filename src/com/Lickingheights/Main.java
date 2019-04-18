@@ -17,7 +17,9 @@ public class Main {
         int go = 0;
 
         while (go == 0) {
-
+        System.out.println("+---------------+");
+        System.out.println("| Hello,Welcome |");
+        System.out.println("+---------------+");
         System.out.println("Enter Month(Enter Number)");
         int month = keyboard.nextInt();
         System.out.println("Enter what day you were born on");
@@ -43,44 +45,58 @@ public class Main {
 
             {
                 case 0:
-                    System.out.println("Saturday");
+                    System.out.println("Saturday ");
                     System.out.println("Saturdays Child Work Hard For Their Living");
                     break;
                 case 1:
-                    System.out.println("Sunday");
+                    System.out.println("Sunday ");
                     System.out.println("The Child That is Born On The Sabbath Day Is " +
-                            "Fair And Wise And Good In Every Way");
+                            "Fair And Wise And Good In Every Way  |");
                     break;
                 case 2:
-                    System.out.println("Monday");
-                    System.out.println("Mondays Child Is Fair Of Face");
+                    System.out.println("Monday  ");
+                    System.out.println("Mondays Child Is Fair Of Face   ");
                     break;
                 case 3:
-                    System.out.println("Tuesday");
-                    System.out.println("Tuesday Child Is Full of Grace");
+                    System.out.println("Tuesday ");
+                    System.out.println("Tuesday Child Is Full of Grace  ");
 
                     break;
                 case 4:
-                    System.out.println("Wednesday");
-                    System.out.println("Wednesdays Child Is Full Of Woe");
+                    System.out.println("Wednesday ");
+                    System.out.println("Wednesdays Child Is Full Of Woe ");
 
                     break;
                 case 5:
-                    System.out.println("Thursday");
-                    System.out.println("Thursday's child has far to go.");
+                    System.out.println("Thursday ");
+                    System.out.println("Thursday's child has far to go ");
                     break;
                 case 6:
-                    System.out.println("Friday");
+                    System.out.println("Friday ");
                     System.out.println("Fridays Child Is Loving And Giving");
                     break;
 
             }
 
 
-            System.out.println("Would you like to play again?");
+            System.out.println("Would you like to play again? ");
             System.out.println("Type 'y' for yes or 'n' for no");
             keepGoing = continueKB.nextLine();
             go = keepGoing.indexOf("y");
+            System.out.println("Thanks for playing");
+            System.out.println("Come back later ");
+            System.out.println(" ****    ****  ");
+            System.out.println("*****    ***** ");
+            System.out.println("******  ****** ");
+            System.out.println(" ************  ");
+            System.out.println("  **********   ");
+            System.out.println("   ********  ");
+            System.out.println("    ******     ");
+            System.out.println("     ****      ");
+
+
+
+
 
 
         }
